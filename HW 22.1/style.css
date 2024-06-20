@@ -1,0 +1,34 @@
+body {
+    color: rgb(0, 0, 0);
+    background: rgba(129, 36, 205, 0.441);
+}
+
+.container{
+    align-items:flex-start ;
+    display: flex;
+    width: 90%;
+    padding: 35px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.leftside{
+    width: 60%;
+    padding: 35px;
+    background-color:rgba(203, 119, 157, 0.484);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.photo-img {
+    width: 300px;
+    height: auto; 
+}
+
+.text {
+    text-align: center;
+}
